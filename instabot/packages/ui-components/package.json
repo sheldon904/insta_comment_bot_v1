@@ -1,0 +1,10 @@
+{
+  "name": "ui-components",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "@mui/material": "^5.14.5"
+  }
+}

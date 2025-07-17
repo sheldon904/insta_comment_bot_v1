@@ -1,0 +1,18 @@
+{
+  "name": "instabot-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "agency-tool": "yarn workspace agency-tool",
+    "client-tool": "yarn workspace client-tool",
+    "shared-llm-service": "yarn workspace shared-llm-service",
+    "shared-api-clients": "yarn workspace shared-api-clients",
+    "ui-components": "yarn workspace ui-components"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
