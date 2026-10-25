@@ -13,6 +13,11 @@
     "ui-components": "yarn workspace ui-components"
   },
   "devDependencies": {
-    "serve": "^14.2.4"
+    "serve": "^14.2.6"
+  },
+  "overrides": {
+    "serve": {
+      "compression": "1.8.2"
+    }
   }
 }
